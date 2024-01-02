@@ -38,3 +38,33 @@ print_context = PythonOperator(
     python_callable=_print_context,
     dag=dag
 )
+
+def _get_data_op_useless(execution_date, **context):
+    year, month, day, hour, *_ = execution_date.timetuple()
+ # This tells Python we expect to receive an argument named execution_date. It will not be captured in the context argument
+ # Now, we can directly use the execution_date variable instead of having to extract it from **context with context["execution_date"]
+
+def _get_data_op(output_path, **context):
+    year, month, day, hour, *_ = context["execution_date"].timetuple()
+    url = (
+    "https://dumps.wikimedia.org/other/pageviews/"
+    f"{year}/{year}-{month:0>2}/pageviews-{year}{month:0>2}{day:0>2}-{hour:0>2}0000.gz"
+    )
+    request.urlretrieve(url, output_path)
+    # output_path now configurable via argument
+
+get_data_op = PythonOperator(
+    task_id="get_data_op",
+    python_callable=_get_data_op_useless,
+    op_args=["/tmp/wikipageviews.gz"],  # Provide additional variables to the callable with op_args.
+    dag=dag,
+)
+
+get_data_oth = PythonOperator(
+ task_id="get_data_oth",
+ python_callable=_get_data_op,
+ op_kwargs={"output_path": "/tmp/wikipageviews.gz"}, # A dict given to op_kwargs will be passed as keyword arguments to the callable.
+ dag=dag,
+)
+
+get_data_oth

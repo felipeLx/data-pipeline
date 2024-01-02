@@ -1,0 +1,798 @@
+[2023-12-31T09:36:33.399-0300] {processor.py:161} INFO - Started process (PID=31933) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:36:33.401-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T09:36:33.408-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:36:33.407-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:36:33.418-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:36:33.416-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:36:33.418-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:36:33.499-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.109 seconds
+[2023-12-31T09:38:22.328-0300] {processor.py:161} INFO - Started process (PID=32160) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:38:22.336-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T09:38:22.339-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:22.338-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:38:22.370-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:22.368-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:38:22.371-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:38:22.539-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.222 seconds
+[2023-12-31T09:51:51.168-0300] {processor.py:161} INFO - Started process (PID=32760) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:51:51.177-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T09:51:51.179-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:51:51.178-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:51:51.198-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:51:51.190-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:51:51.199-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:51:51.770-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.623 seconds
+[2023-12-31T09:55:11.147-0300] {processor.py:161} INFO - Started process (PID=32922) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:55:11.149-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T09:55:11.157-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:11.157-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:55:11.169-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:11.167-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:55:11.170-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:55:11.409-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.291 seconds
+[2023-12-31T09:59:48.678-0300] {processor.py:161} INFO - Started process (PID=33133) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:59:48.680-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T09:59:48.688-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:59:48.687-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:59:48.700-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:59:48.698-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:59:48.707-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T09:59:48.827-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.160 seconds
+[2023-12-31T10:01:15.309-0300] {processor.py:161} INFO - Started process (PID=33245) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:01:15.318-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T10:01:15.328-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:15.320-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:01:15.347-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:15.339-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:01:15.348-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:01:15.457-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.160 seconds
+[2023-12-31T10:02:24.237-0300] {processor.py:161} INFO - Started process (PID=33334) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:02:24.239-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T10:02:24.247-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:24.247-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:02:24.259-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:24.258-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:02:24.260-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:02:24.379-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.159 seconds
+[2023-12-31T10:03:30.468-0300] {processor.py:161} INFO - Started process (PID=33400) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:03:30.477-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T10:03:30.478-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:30.478-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:03:30.496-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:30.489-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:03:30.497-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:03:30.588-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.131 seconds
+[2023-12-31T10:04:39.519-0300] {processor.py:161} INFO - Started process (PID=33486) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:04:39.528-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T10:04:39.529-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:39.529-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:04:39.547-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:39.539-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:04:39.548-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:04:39.670-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.161 seconds
+[2023-12-31T10:05:50.758-0300] {processor.py:161} INFO - Started process (PID=33566) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:05:50.767-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T10:05:50.768-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:05:50.768-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:05:50.787-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:05:50.779-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:05:50.787-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:05:50.887-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.140 seconds
+[2023-12-31T10:07:01.807-0300] {processor.py:161} INFO - Started process (PID=33681) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:07:01.809-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T10:07:01.818-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:07:01.817-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:07:01.838-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:07:01.829-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:07:01.839-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:07:01.939-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.143 seconds
+[2023-12-31T10:08:14.939-0300] {processor.py:161} INFO - Started process (PID=33759) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:08:14.948-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T10:08:14.949-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:14.949-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:08:14.968-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:14.966-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:08:14.968-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T10:08:15.087-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.159 seconds
+[2023-12-31T11:28:41.894-0300] {processor.py:161} INFO - Started process (PID=33944) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:28:41.896-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:28:41.906-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:28:41.905-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:28:41.934-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:28:41.926-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:28:41.936-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:28:42.075-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.199 seconds
+[2023-12-31T11:30:40.204-0300] {processor.py:161} INFO - Started process (PID=34215) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:30:40.214-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:30:40.217-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:40.216-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:30:40.245-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:40.236-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:30:40.246-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:30:40.385-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.200 seconds
+[2023-12-31T11:32:11.645-0300] {processor.py:161} INFO - Started process (PID=34329) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:32:11.654-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:32:11.656-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:11.656-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:32:11.676-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:11.675-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:32:11.684-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:32:11.825-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.191 seconds
+[2023-12-31T11:33:41.206-0300] {processor.py:161} INFO - Started process (PID=34429) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:33:41.215-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:33:41.217-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:41.216-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:33:41.246-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:41.244-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:33:41.255-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:33:41.416-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.222 seconds
+[2023-12-31T11:35:04.134-0300] {processor.py:161} INFO - Started process (PID=34524) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:35:04.136-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:35:04.146-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:04.145-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:35:04.174-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:04.166-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:35:04.176-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:35:04.335-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.228 seconds
+[2023-12-31T11:36:27.246-0300] {processor.py:161} INFO - Started process (PID=34636) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:36:27.255-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:36:27.256-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:27.256-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:36:27.326-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:27.296-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:36:27.345-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:36:27.625-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.391 seconds
+[2023-12-31T11:37:51.084-0300] {processor.py:161} INFO - Started process (PID=34731) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:37:51.094-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:37:51.096-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:37:51.095-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:37:51.115-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:37:51.114-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:37:51.116-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:37:51.255-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.199 seconds
+[2023-12-31T11:39:13.226-0300] {processor.py:161} INFO - Started process (PID=34820) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:39:13.244-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:39:13.246-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:13.246-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:39:13.274-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:13.265-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:39:13.275-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:39:13.425-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.229 seconds
+[2023-12-31T11:40:35.986-0300] {processor.py:161} INFO - Started process (PID=34936) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:40:36.005-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:40:36.006-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:36.006-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:40:36.026-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:36.025-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:40:36.034-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:40:36.176-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.201 seconds
+[2023-12-31T11:42:09.655-0300] {processor.py:161} INFO - Started process (PID=35042) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:42:09.664-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:42:09.666-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:09.666-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:42:09.705-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:09.695-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:42:09.706-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:42:09.865-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.232 seconds
+[2023-12-31T11:43:45.676-0300] {processor.py:161} INFO - Started process (PID=35155) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:43:45.686-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:43:45.704-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:43:45.696-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:43:45.734-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:43:45.725-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:43:45.735-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:43:45.916-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.261 seconds
+[2023-12-31T11:45:27.245-0300] {processor.py:161} INFO - Started process (PID=35291) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:45:27.254-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:45:27.264-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:27.256-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:45:27.285-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:27.275-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:45:27.285-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:45:27.445-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.230 seconds
+[2023-12-31T11:47:03.994-0300] {processor.py:161} INFO - Started process (PID=35407) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:47:04.004-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:47:04.006-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:47:04.005-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:47:04.034-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:47:04.025-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:47:04.035-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:47:04.206-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.232 seconds
+[2023-12-31T11:49:14.625-0300] {processor.py:161} INFO - Started process (PID=35574) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:49:14.644-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:49:14.654-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:14.645-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:49:14.686-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:14.675-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:49:14.695-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:49:14.925-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.330 seconds
+[2023-12-31T11:51:25.905-0300] {processor.py:161} INFO - Started process (PID=35728) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:51:25.924-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:51:25.934-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:25.925-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:51:25.955-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:25.946-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:51:25.956-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:51:26.144-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.259 seconds
+[2023-12-31T11:54:08.215-0300] {processor.py:161} INFO - Started process (PID=35856) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:54:08.234-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:54:08.245-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:08.236-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:54:08.296-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:08.294-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:54:08.305-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:54:08.596-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.430 seconds
+[2023-12-31T11:56:03.494-0300] {processor.py:161} INFO - Started process (PID=35993) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:56:03.504-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:56:03.514-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:56:03.505-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:56:03.535-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:56:03.526-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:56:03.544-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:56:03.714-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.240 seconds
+[2023-12-31T11:57:48.315-0300] {processor.py:161} INFO - Started process (PID=36096) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:57:48.325-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:57:48.335-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:57:48.334-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:57:48.365-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:57:48.355-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:57:48.374-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:57:48.575-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.280 seconds
+[2023-12-31T11:59:33.825-0300] {processor.py:161} INFO - Started process (PID=36203) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:59:33.834-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T11:59:33.844-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:33.835-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:59:33.865-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:33.855-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:59:33.874-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T11:59:34.055-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.259 seconds
+[2023-12-31T12:01:22.015-0300] {processor.py:161} INFO - Started process (PID=36333) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:01:22.024-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:01:22.034-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:22.025-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:01:22.064-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:22.055-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:01:22.065-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:01:22.315-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.320 seconds
+[2023-12-31T12:03:21.024-0300] {processor.py:161} INFO - Started process (PID=36443) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:03:21.034-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:03:21.044-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:21.035-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:03:21.075-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:21.065-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:03:21.084-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:03:21.325-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.340 seconds
+[2023-12-31T12:06:39.724-0300] {processor.py:161} INFO - Started process (PID=36692) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:06:39.735-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:06:39.755-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:06:39.754-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:06:39.814-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:06:39.795-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:06:39.815-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:06:40.225-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.551 seconds
+[2023-12-31T12:10:03.825-0300] {processor.py:161} INFO - Started process (PID=37074) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:10:03.845-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:10:03.864-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:10:03.855-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:10:03.915-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:10:03.904-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:10:03.925-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:10:04.315-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.530 seconds
+[2023-12-31T12:11:24.174-0300] {processor.py:161} INFO - Started process (PID=37176) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:11:24.185-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:11:24.204-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:24.195-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:11:24.254-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:24.235-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:11:24.264-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:11:24.555-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.440 seconds
+[2023-12-31T12:12:14.515-0300] {processor.py:161} INFO - Started process (PID=37241) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:12:14.534-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:12:14.545-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:14.544-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:12:14.614-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:14.594-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:12:14.624-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:12:14.935-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.450 seconds
+[2023-12-31T12:13:11.234-0300] {processor.py:161} INFO - Started process (PID=37319) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:13:11.245-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:13:11.265-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:11.264-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:13:11.344-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:11.325-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:13:11.364-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:13:11.744-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.550 seconds
+[2023-12-31T12:13:53.704-0300] {processor.py:161} INFO - Started process (PID=37376) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:13:53.714-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:13:53.725-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:53.724-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:13:53.774-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:53.755-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:13:53.775-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:13:54.065-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.400 seconds
+[2023-12-31T12:14:42.425-0300] {processor.py:161} INFO - Started process (PID=37464) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:14:42.454-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:14:42.495-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:14:42.484-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:14:42.584-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:14:42.564-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:14:42.585-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:14:42.895-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.501 seconds
+[2023-12-31T12:15:32.654-0300] {processor.py:161} INFO - Started process (PID=37529) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:15:32.674-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:15:32.684-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:32.675-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:15:32.734-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:32.724-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:15:32.735-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:15:33.035-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.421 seconds
+[2023-12-31T12:16:21.704-0300] {processor.py:161} INFO - Started process (PID=37592) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:16:21.715-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:16:21.754-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:21.734-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:16:21.814-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:21.794-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:16:21.815-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:16:22.224-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.560 seconds
+[2023-12-31T12:17:06.374-0300] {processor.py:161} INFO - Started process (PID=37653) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:17:06.395-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:17:06.425-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:06.414-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:17:06.504-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:06.484-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:17:06.514-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:17:06.854-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.560 seconds
+[2023-12-31T12:17:58.504-0300] {processor.py:161} INFO - Started process (PID=37718) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:17:58.524-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:17:58.534-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:58.534-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:17:58.584-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:58.574-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:17:58.594-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:17:58.945-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.510 seconds
+[2023-12-31T12:18:51.635-0300] {processor.py:161} INFO - Started process (PID=37784) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:18:51.654-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:18:51.674-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:51.664-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:18:51.724-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:51.705-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:18:51.734-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:18:52.114-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.520 seconds
+[2023-12-31T12:25:58.320-0300] {processor.py:161} INFO - Started process (PID=37968) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:25:58.350-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:25:58.411-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:25:58.391-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:25:58.561-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:25:58.511-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:25:58.571-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:25:59.240-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 1.020 seconds
+[2023-12-31T12:27:00.390-0300] {processor.py:161} INFO - Started process (PID=38022) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:27:00.420-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:27:00.441-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:27:00.431-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:27:00.551-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:27:00.521-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:27:00.571-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:27:01.191-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.870 seconds
+[2023-12-31T12:28:16.760-0300] {processor.py:161} INFO - Started process (PID=38094) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:28:16.790-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:28:16.830-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:16.820-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:28:16.950-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:16.920-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:28:16.961-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:28:17.521-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.830 seconds
+[2023-12-31T12:29:21.950-0300] {processor.py:161} INFO - Started process (PID=38138) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:29:21.971-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:29:22.000-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:29:21.990-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:29:22.120-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:29:22.080-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:29:22.131-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:29:22.711-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.831 seconds
+[2023-12-31T12:30:37.830-0300] {processor.py:161} INFO - Started process (PID=38218) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:30:37.861-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:30:37.881-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:30:37.871-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:30:37.951-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:30:37.930-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:30:37.961-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:30:38.461-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.690 seconds
+[2023-12-31T12:31:55.331-0300] {processor.py:161} INFO - Started process (PID=38272) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:31:55.351-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:31:55.380-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:55.370-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:31:55.481-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:55.460-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:31:55.500-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:31:56.001-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.730 seconds
+[2023-12-31T12:33:21.710-0300] {processor.py:161} INFO - Started process (PID=38326) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:33:21.731-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:33:21.760-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:33:21.750-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:33:21.850-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:33:21.820-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:33:21.861-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:33:22.431-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.810 seconds
+[2023-12-31T12:34:49.240-0300] {processor.py:161} INFO - Started process (PID=38379) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:34:49.280-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:34:49.331-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:34:49.320-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:34:49.470-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:34:49.440-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:34:49.480-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:34:50.241-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 1.140 seconds
+[2023-12-31T12:36:37.391-0300] {processor.py:161} INFO - Started process (PID=38471) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:36:37.430-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:36:37.460-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:36:37.450-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:36:37.600-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:36:37.551-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:36:37.620-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:36:38.291-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 0.990 seconds
+[2023-12-31T12:46:29.498-0300] {processor.py:161} INFO - Started process (PID=38715) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:46:29.598-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:46:29.738-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:46:29.708-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:46:30.118-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:46:29.988-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:46:30.178-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:46:32.938-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 3.760 seconds
+[2023-12-31T12:48:41.498-0300] {processor.py:161} INFO - Started process (PID=38804) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:48:41.568-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:48:41.638-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:48:41.608-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:48:41.898-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:48:41.828-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:48:41.937-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:48:43.487-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 2.160 seconds
+[2023-12-31T12:54:03.207-0300] {processor.py:161} INFO - Started process (PID=38931) to work on /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:54:03.657-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/12_idempotency.py for tasks to queue
+[2023-12-31T12:54:04.298-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:54:04.058-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:54:06.667-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:54:06.027-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/12_idempotency.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/12_idempotency.py", line 10, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:54:07.157-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/12_idempotency.py
+[2023-12-31T12:54:39.667-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/12_idempotency.py took 38.930 seconds

@@ -1,0 +1,756 @@
+[2023-12-31T09:36:37.361-0300] {processor.py:161} INFO - Started process (PID=31951) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:36:37.367-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T09:36:37.369-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:36:37.368-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:36:37.378-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:36:37.377-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:36:37.379-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:36:37.446-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.084 seconds
+[2023-12-31T09:38:27.957-0300] {processor.py:161} INFO - Started process (PID=32169) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:38:27.969-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T09:38:27.980-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:27.978-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:38:28.009-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:28.001-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:38:28.018-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:38:28.249-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.311 seconds
+[2023-12-31T09:51:56.596-0300] {processor.py:161} INFO - Started process (PID=32763) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:51:56.598-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T09:51:56.607-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:51:56.600-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:51:56.617-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:51:56.610-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:51:56.618-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:51:56.736-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.150 seconds
+[2023-12-31T09:55:15.777-0300] {processor.py:161} INFO - Started process (PID=32925) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:55:15.786-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T09:55:15.796-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:15.789-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:55:15.810-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:15.809-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:55:15.817-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:55:15.956-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.197 seconds
+[2023-12-31T09:59:51.787-0300] {processor.py:161} INFO - Started process (PID=33136) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:59:51.797-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T09:59:51.799-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:59:51.798-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:59:51.810-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:59:51.809-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:59:51.817-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T09:59:51.909-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.139 seconds
+[2023-12-31T10:01:18.679-0300] {processor.py:161} INFO - Started process (PID=33270) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:01:18.688-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T10:01:18.690-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:18.689-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:01:18.708-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:18.707-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:01:18.709-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:01:18.817-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.149 seconds
+[2023-12-31T10:02:27.996-0300] {processor.py:161} INFO - Started process (PID=33337) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:02:27.999-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T10:02:28.007-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:28.006-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:02:28.018-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:28.017-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:02:28.019-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:02:28.119-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.140 seconds
+[2023-12-31T10:03:33.009-0300] {processor.py:161} INFO - Started process (PID=33409) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:03:33.017-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T10:03:33.018-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:33.018-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:03:33.030-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:33.028-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:03:33.037-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:03:33.129-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.131 seconds
+[2023-12-31T10:04:43.517-0300] {processor.py:161} INFO - Started process (PID=33489) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:04:43.526-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T10:04:43.528-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:43.528-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:04:43.546-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:43.538-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:04:43.547-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:04:43.639-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.141 seconds
+[2023-12-31T10:05:54.769-0300] {processor.py:161} INFO - Started process (PID=33569) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:05:54.778-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T10:05:54.787-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:05:54.786-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:05:54.798-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:05:54.797-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:05:54.799-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:05:54.899-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.141 seconds
+[2023-12-31T10:07:05.806-0300] {processor.py:161} INFO - Started process (PID=33684) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:07:05.809-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T10:07:05.817-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:07:05.816-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:07:05.829-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:07:05.827-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:07:05.829-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:07:05.928-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.139 seconds
+[2023-12-31T10:08:18.719-0300] {processor.py:161} INFO - Started process (PID=33762) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:08:18.728-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T10:08:18.729-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:18.729-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:08:18.747-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:18.746-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:08:18.748-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T10:08:18.847-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.139 seconds
+[2023-12-31T11:28:48.375-0300] {processor.py:161} INFO - Started process (PID=33953) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:28:48.385-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:28:48.394-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:28:48.386-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:28:48.426-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:28:48.414-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:28:48.436-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:28:48.687-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.331 seconds
+[2023-12-31T11:30:44.924-0300] {processor.py:161} INFO - Started process (PID=34221) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:30:44.934-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:30:44.936-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:44.935-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:30:44.955-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:44.946-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:30:44.956-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:30:45.115-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.209 seconds
+[2023-12-31T11:32:15.294-0300] {processor.py:161} INFO - Started process (PID=34332) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:32:15.296-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:32:15.305-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:15.304-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:32:15.325-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:15.316-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:32:15.326-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:32:15.445-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.169 seconds
+[2023-12-31T11:33:45.266-0300] {processor.py:161} INFO - Started process (PID=34434) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:33:45.276-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:33:45.285-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:45.284-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:33:45.305-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:45.296-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:33:45.306-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:33:45.437-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.190 seconds
+[2023-12-31T11:35:08.584-0300] {processor.py:161} INFO - Started process (PID=34552) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:35:08.586-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:35:08.594-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:08.594-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:35:08.607-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:08.605-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:35:08.614-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:35:08.737-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.171 seconds
+[2023-12-31T11:36:31.236-0300] {processor.py:161} INFO - Started process (PID=34645) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:36:31.245-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:36:31.247-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:31.246-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:36:31.276-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:31.274-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:36:31.276-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:36:31.406-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.181 seconds
+[2023-12-31T11:37:55.355-0300] {processor.py:161} INFO - Started process (PID=34734) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:37:55.364-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:37:55.366-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:37:55.365-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:37:55.385-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:37:55.377-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:37:55.386-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:37:55.556-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.219 seconds
+[2023-12-31T11:39:17.564-0300] {processor.py:161} INFO - Started process (PID=34823) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:39:17.574-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:39:17.576-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:17.575-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:39:17.596-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:17.594-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:39:17.596-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:39:17.775-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.231 seconds
+[2023-12-31T11:40:39.994-0300] {processor.py:161} INFO - Started process (PID=34945) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:40:40.004-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:40:40.006-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:40.005-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:40:40.035-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:40.025-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:40:40.036-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:40:40.225-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.249 seconds
+[2023-12-31T11:42:13.645-0300] {processor.py:161} INFO - Started process (PID=35051) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:42:13.655-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:42:13.664-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:13.656-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:42:13.685-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:13.675-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:42:13.686-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:42:13.836-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.211 seconds
+[2023-12-31T11:43:50.506-0300] {processor.py:161} INFO - Started process (PID=35161) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:43:50.515-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:43:50.524-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:43:50.524-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:43:50.545-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:43:50.544-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:43:50.546-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:43:50.715-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.221 seconds
+[2023-12-31T11:45:30.866-0300] {processor.py:161} INFO - Started process (PID=35294) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:45:30.876-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:45:30.885-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:30.884-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:45:30.905-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:30.904-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:45:30.906-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:45:31.065-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.220 seconds
+[2023-12-31T11:47:08.906-0300] {processor.py:161} INFO - Started process (PID=35421) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:47:08.915-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:47:08.925-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:47:08.924-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:47:08.945-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:47:08.944-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:47:08.946-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:47:09.095-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.201 seconds
+[2023-12-31T11:49:19.585-0300] {processor.py:161} INFO - Started process (PID=35583) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:49:19.595-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:49:19.614-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:19.605-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:49:19.644-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:19.635-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:49:19.645-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:49:19.865-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.301 seconds
+[2023-12-31T11:51:29.816-0300] {processor.py:161} INFO - Started process (PID=35731) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:51:29.834-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:51:29.844-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:29.835-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:51:29.875-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:29.866-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:51:29.884-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:51:30.174-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.361 seconds
+[2023-12-31T11:54:13.645-0300] {processor.py:161} INFO - Started process (PID=35859) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:54:13.665-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:54:13.676-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:13.675-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:54:13.774-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:13.744-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:54:13.785-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:54:14.094-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.500 seconds
+[2023-12-31T11:56:07.805-0300] {processor.py:161} INFO - Started process (PID=36002) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:56:07.815-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:56:07.824-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:56:07.824-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:56:07.845-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:56:07.844-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:56:07.854-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:56:08.045-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.260 seconds
+[2023-12-31T11:57:52.335-0300] {processor.py:161} INFO - Started process (PID=36101) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:57:52.345-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:57:52.355-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:57:52.354-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:57:52.384-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:57:52.375-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:57:52.385-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:57:52.555-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.241 seconds
+[2023-12-31T11:59:38.855-0300] {processor.py:161} INFO - Started process (PID=36206) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:59:38.864-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T11:59:38.874-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:38.865-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:59:38.905-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:38.895-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:59:38.914-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T11:59:39.135-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.310 seconds
+[2023-12-31T12:01:26.694-0300] {processor.py:161} INFO - Started process (PID=36336) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:01:26.705-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:01:26.724-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:26.715-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:01:26.785-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:26.774-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:01:26.794-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:01:27.085-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.431 seconds
+[2023-12-31T12:03:26.595-0300] {processor.py:161} INFO - Started process (PID=36449) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:03:26.614-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:03:26.624-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:26.624-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:03:26.655-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:26.645-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:03:26.664-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:03:26.895-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.330 seconds
+[2023-12-31T12:06:46.125-0300] {processor.py:161} INFO - Started process (PID=36698) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:06:46.154-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:06:46.174-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:06:46.165-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:06:46.255-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:06:46.234-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:06:46.265-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:06:46.694-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.630 seconds
+[2023-12-31T12:10:12.384-0300] {processor.py:161} INFO - Started process (PID=37083) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:10:12.404-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:10:12.414-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:10:12.414-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:10:12.455-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:10:12.445-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:10:12.474-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:10:12.935-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.591 seconds
+[2023-12-31T12:11:31.054-0300] {processor.py:161} INFO - Started process (PID=37182) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:11:31.064-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:11:31.075-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:31.074-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:11:31.175-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:31.154-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:11:31.185-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:11:31.584-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.571 seconds
+[2023-12-31T12:12:27.484-0300] {processor.py:161} INFO - Started process (PID=37260) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:12:27.504-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:12:27.524-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:27.514-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:12:27.584-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:27.565-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:12:27.594-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:12:27.934-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.510 seconds
+[2023-12-31T12:13:17.524-0300] {processor.py:161} INFO - Started process (PID=37325) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:13:17.534-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:13:17.555-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:17.545-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:13:17.615-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:17.595-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:13:17.624-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:13:17.924-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.450 seconds
+[2023-12-31T12:14:21.144-0300] {processor.py:161} INFO - Started process (PID=37410) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:14:21.164-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:14:21.184-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:14:21.174-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:14:21.225-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:14:21.214-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:14:21.234-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:14:21.544-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.440 seconds
+[2023-12-31T12:15:11.275-0300] {processor.py:161} INFO - Started process (PID=37503) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:15:11.294-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:15:11.325-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:11.314-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:15:11.375-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:11.364-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:15:11.385-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:15:11.755-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.511 seconds
+[2023-12-31T12:16:00.984-0300] {processor.py:161} INFO - Started process (PID=37565) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:16:01.004-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:16:01.024-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:01.014-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:16:01.075-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:01.064-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:16:01.085-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:16:01.534-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.600 seconds
+[2023-12-31T12:17:08.844-0300] {processor.py:161} INFO - Started process (PID=37654) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:17:08.854-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:17:08.874-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:08.865-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:17:08.944-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:08.924-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:17:08.954-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:17:09.314-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.530 seconds
+[2023-12-31T12:18:00.524-0300] {processor.py:161} INFO - Started process (PID=37719) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:18:00.545-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:18:00.565-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:00.555-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:18:00.635-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:00.614-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:18:00.645-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:18:00.985-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.510 seconds
+[2023-12-31T12:18:54.454-0300] {processor.py:161} INFO - Started process (PID=37792) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:18:54.475-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:18:54.495-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:54.494-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:18:54.575-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:54.535-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:18:54.594-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:18:55.204-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.830 seconds
+[2023-12-31T12:26:08.030-0300] {processor.py:161} INFO - Started process (PID=37974) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:26:08.051-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:26:08.071-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:26:08.070-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:26:08.141-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:26:08.121-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:26:08.160-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:26:08.651-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.680 seconds
+[2023-12-31T12:27:16.750-0300] {processor.py:161} INFO - Started process (PID=38036) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:27:16.771-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:27:16.801-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:27:16.791-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:27:16.890-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:27:16.870-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:27:16.901-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:27:17.350-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.669 seconds
+[2023-12-31T12:28:33.990-0300] {processor.py:161} INFO - Started process (PID=38106) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:28:34.001-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:28:34.021-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:34.020-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:28:34.091-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:34.071-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:28:34.101-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:28:34.600-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.661 seconds
+[2023-12-31T12:29:45.180-0300] {processor.py:161} INFO - Started process (PID=38155) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:29:45.201-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:29:45.230-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:29:45.220-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:29:45.321-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:29:45.291-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:29:45.331-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:29:45.800-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.690 seconds
+[2023-12-31T12:31:00.220-0300] {processor.py:161} INFO - Started process (PID=38230) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:31:00.240-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:31:00.270-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:00.260-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:31:00.361-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:00.331-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:31:00.380-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:31:00.870-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.701 seconds
+[2023-12-31T12:32:21.141-0300] {processor.py:161} INFO - Started process (PID=38286) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:32:21.180-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:32:21.210-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:32:21.200-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:32:21.300-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:32:21.271-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:32:21.311-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:32:21.880-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.800 seconds
+[2023-12-31T12:33:51.550-0300] {processor.py:161} INFO - Started process (PID=38341) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:33:51.581-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:33:51.621-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:33:51.610-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:33:51.731-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:33:51.701-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:33:51.750-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:33:52.350-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.870 seconds
+[2023-12-31T12:35:28.990-0300] {processor.py:161} INFO - Started process (PID=38416) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:35:29.030-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:35:29.060-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:35:29.041-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:35:29.190-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:35:29.150-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:35:29.211-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:35:30.220-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 1.310 seconds
+[2023-12-31T12:36:48.391-0300] {processor.py:161} INFO - Started process (PID=38474) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:36:48.430-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:36:48.460-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:36:48.450-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:36:48.570-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:36:48.540-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:36:48.581-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:36:49.181-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 0.890 seconds
+[2023-12-31T12:46:54.008-0300] {processor.py:161} INFO - Started process (PID=38724) to work on /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:46:54.058-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/09_no_catchup.py for tasks to queue
+[2023-12-31T12:46:54.118-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:46:54.097-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:46:54.328-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:46:54.268-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/09_no_catchup.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/09_no_catchup.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:46:54.358-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/09_no_catchup.py
+[2023-12-31T12:46:55.468-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/09_no_catchup.py took 1.620 seconds

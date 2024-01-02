@@ -10,7 +10,7 @@ from airflow.operators.python import PythonOperator
 dag = DAG(
     dag_id="chapter4_stocksense_bashoperator",
     start_date=airflow.utils.dates.days_ago(3),
-    schedule_intervals="@hourly"
+    schedule_interval="@hourly"
 )
 
 """

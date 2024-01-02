@@ -1,0 +1,728 @@
+[2023-12-31T09:36:45.981-0300] {processor.py:161} INFO - Started process (PID=31982) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:36:45.987-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T09:36:45.989-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:36:45.988-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:36:45.999-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:36:45.998-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:36:46.000-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:36:46.060-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.083 seconds
+[2023-12-31T09:38:37.617-0300] {processor.py:161} INFO - Started process (PID=32176) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:38:37.620-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T09:38:37.636-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:37.629-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:38:37.657-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:37.649-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:38:37.659-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:38:37.859-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.262 seconds
+[2023-12-31T09:52:07.338-0300] {processor.py:161} INFO - Started process (PID=32776) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:52:07.349-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T09:52:07.359-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:52:07.357-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:52:07.380-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:52:07.379-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:52:07.387-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:52:07.528-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.218 seconds
+[2023-12-31T09:55:26.219-0300] {processor.py:161} INFO - Started process (PID=32938) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:55:26.230-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T09:55:26.238-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:26.237-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:55:26.259-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:26.257-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:55:26.260-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T09:55:26.427-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.218 seconds
+[2023-12-31T10:00:00.889-0300] {processor.py:161} INFO - Started process (PID=33149) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:00:00.898-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T10:00:00.899-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:00:00.899-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:00:00.917-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:00:00.909-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:00:00.918-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:00:01.028-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.149 seconds
+[2023-12-31T10:01:27.238-0300] {processor.py:161} INFO - Started process (PID=33286) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:01:27.247-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T10:01:27.257-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:27.249-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:01:27.277-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:27.269-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:01:27.278-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:01:27.399-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.180 seconds
+[2023-12-31T10:02:35.578-0300] {processor.py:161} INFO - Started process (PID=33344) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:02:35.587-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T10:02:35.588-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:35.588-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:02:35.608-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:35.606-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:02:35.608-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:02:35.739-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.171 seconds
+[2023-12-31T10:03:41.418-0300] {processor.py:161} INFO - Started process (PID=33416) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:03:41.427-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T10:03:41.428-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:41.428-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:03:41.447-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:41.440-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:03:41.448-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:03:41.547-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.139 seconds
+[2023-12-31T10:04:52.967-0300] {processor.py:161} INFO - Started process (PID=33502) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:04:52.969-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T10:04:52.978-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:52.977-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:04:52.989-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:52.988-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:04:52.996-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:04:53.097-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.149 seconds
+[2023-12-31T10:06:04.387-0300] {processor.py:161} INFO - Started process (PID=33582) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:06:04.397-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T10:06:04.399-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:06:04.398-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:06:04.437-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:06:04.428-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:06:04.438-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:06:04.568-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.200 seconds
+[2023-12-31T10:07:14.959-0300] {processor.py:161} INFO - Started process (PID=33697) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:07:14.967-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T10:07:14.969-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:07:14.969-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:07:14.988-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:07:14.986-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:07:14.989-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:07:15.098-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.150 seconds
+[2023-12-31T10:08:28.148-0300] {processor.py:161} INFO - Started process (PID=33777) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:08:28.156-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T10:08:28.159-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:28.158-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:08:28.189-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:28.187-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:08:28.207-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T10:08:28.359-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.223 seconds
+[2023-12-31T11:29:05.024-0300] {processor.py:161} INFO - Started process (PID=33973) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:29:05.046-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:29:05.055-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:29:05.054-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:29:05.096-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:29:05.087-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:29:05.104-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:29:05.464-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.507 seconds
+[2023-12-31T11:30:54.595-0300] {processor.py:161} INFO - Started process (PID=34240) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:30:54.614-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:30:54.617-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:54.616-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:30:54.666-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:54.656-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:30:54.674-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:30:54.846-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.291 seconds
+[2023-12-31T11:32:24.785-0300] {processor.py:161} INFO - Started process (PID=34345) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:32:24.794-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:32:24.796-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:24.796-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:32:24.816-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:24.814-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:32:24.816-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:32:24.934-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.162 seconds
+[2023-12-31T11:33:55.194-0300] {processor.py:161} INFO - Started process (PID=34447) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:33:55.196-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:33:55.206-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:55.205-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:33:55.225-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:55.224-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:33:55.226-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:33:55.344-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.168 seconds
+[2023-12-31T11:35:17.655-0300] {processor.py:161} INFO - Started process (PID=34565) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:35:17.657-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:35:17.665-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:17.665-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:35:17.684-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:17.676-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:35:17.685-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:35:17.797-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.161 seconds
+[2023-12-31T11:36:41.075-0300] {processor.py:161} INFO - Started process (PID=34654) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:36:41.084-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:36:41.086-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:41.085-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:36:41.106-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:41.105-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:36:41.114-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:36:41.245-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.181 seconds
+[2023-12-31T11:38:05.035-0300] {processor.py:161} INFO - Started process (PID=34749) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:38:05.044-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:38:05.045-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:38:05.045-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:38:05.065-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:38:05.056-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:38:05.066-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:38:05.206-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.191 seconds
+[2023-12-31T11:39:26.836-0300] {processor.py:161} INFO - Started process (PID=34836) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:39:26.844-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:39:26.854-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:26.846-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:39:26.874-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:26.865-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:39:26.874-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:39:27.015-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.191 seconds
+[2023-12-31T11:40:49.534-0300] {processor.py:161} INFO - Started process (PID=34952) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:40:49.536-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:40:49.545-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:49.544-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:40:49.564-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:49.556-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:40:49.565-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:40:49.706-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.200 seconds
+[2023-12-31T11:42:24.455-0300] {processor.py:161} INFO - Started process (PID=35058) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:42:24.465-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:42:24.474-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:24.466-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:42:24.514-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:24.504-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:42:24.515-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:42:24.706-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.281 seconds
+[2023-12-31T11:44:00.265-0300] {processor.py:161} INFO - Started process (PID=35174) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:44:00.275-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:44:00.285-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:44:00.284-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:44:00.325-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:44:00.314-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:44:00.326-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:44:00.544-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.300 seconds
+[2023-12-31T11:45:40.885-0300] {processor.py:161} INFO - Started process (PID=35307) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:45:40.895-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:45:40.906-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:40.904-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:45:40.935-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:40.926-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:45:40.936-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:45:41.146-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.281 seconds
+[2023-12-31T11:47:17.964-0300] {processor.py:161} INFO - Started process (PID=35434) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:47:17.974-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:47:17.976-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:47:17.975-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:47:18.004-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:47:17.995-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:47:18.005-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:47:18.184-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.248 seconds
+[2023-12-31T11:49:32.254-0300] {processor.py:161} INFO - Started process (PID=35596) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:49:32.264-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:49:32.276-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:32.275-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:49:32.315-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:32.305-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:49:32.316-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:49:32.495-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.270 seconds
+[2023-12-31T11:51:42.475-0300] {processor.py:161} INFO - Started process (PID=35744) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:51:42.485-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:51:42.494-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:42.486-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:51:42.514-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:42.506-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:51:42.515-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:51:42.755-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.311 seconds
+[2023-12-31T11:54:26.395-0300] {processor.py:161} INFO - Started process (PID=35874) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:54:26.406-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:54:26.424-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:26.424-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:54:26.464-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:26.445-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:54:26.465-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:54:26.674-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.299 seconds
+[2023-12-31T11:56:17.305-0300] {processor.py:161} INFO - Started process (PID=36009) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:56:17.314-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:56:17.316-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:56:17.315-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:56:17.345-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:56:17.344-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:56:17.354-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:56:17.514-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.229 seconds
+[2023-12-31T11:58:03.114-0300] {processor.py:161} INFO - Started process (PID=36114) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:58:03.124-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:58:03.134-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:58:03.125-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:58:03.165-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:58:03.155-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:58:03.174-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:58:03.375-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.290 seconds
+[2023-12-31T11:59:48.634-0300] {processor.py:161} INFO - Started process (PID=36219) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:59:48.636-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T11:59:48.645-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:48.644-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:59:48.675-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:48.665-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:59:48.684-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T11:59:48.864-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.259 seconds
+[2023-12-31T12:01:38.905-0300] {processor.py:161} INFO - Started process (PID=36351) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:01:38.924-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:01:38.954-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:38.945-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:01:39.004-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:38.985-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:01:39.005-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:01:39.235-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.370 seconds
+[2023-12-31T12:03:39.725-0300] {processor.py:161} INFO - Started process (PID=36464) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:03:39.744-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:03:39.764-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:39.755-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:03:39.804-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:39.794-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:03:39.814-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:03:40.085-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.391 seconds
+[2023-12-31T12:07:05.925-0300] {processor.py:161} INFO - Started process (PID=36722) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:07:05.945-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:07:05.984-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:07:05.974-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:07:06.075-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:07:06.055-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:07:06.085-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:07:06.574-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.700 seconds
+[2023-12-31T12:10:40.494-0300] {processor.py:161} INFO - Started process (PID=37117) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:10:40.514-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:10:40.535-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:10:40.525-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:10:40.624-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:10:40.604-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:10:40.635-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:10:42.735-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 2.291 seconds
+[2023-12-31T12:11:52.844-0300] {processor.py:161} INFO - Started process (PID=37215) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:11:52.855-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:11:52.874-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:52.865-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:11:52.954-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:52.934-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:11:52.964-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:11:53.334-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.520 seconds
+[2023-12-31T12:12:52.344-0300] {processor.py:161} INFO - Started process (PID=37294) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:12:52.354-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:12:52.374-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:52.364-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:12:52.435-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:52.405-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:12:52.445-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:12:52.744-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.439 seconds
+[2023-12-31T12:13:57.754-0300] {processor.py:161} INFO - Started process (PID=37381) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:13:57.764-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:13:57.775-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:57.774-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:13:57.824-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:57.814-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:13:57.834-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:13:58.115-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.431 seconds
+[2023-12-31T12:15:13.534-0300] {processor.py:161} INFO - Started process (PID=37507) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:15:13.554-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:15:13.584-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:13.574-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:15:13.674-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:13.644-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:15:13.684-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:15:14.084-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.600 seconds
+[2023-12-31T12:16:04.704-0300] {processor.py:161} INFO - Started process (PID=37571) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:16:04.724-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:16:04.744-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:04.735-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:16:04.815-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:04.794-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:16:04.834-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:16:05.144-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.490 seconds
+[2023-12-31T12:17:15.265-0300] {processor.py:161} INFO - Started process (PID=37660) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:17:15.294-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:17:15.305-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:15.304-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:17:15.374-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:15.344-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:17:15.384-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:17:15.775-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.551 seconds
+[2023-12-31T12:18:33.724-0300] {processor.py:161} INFO - Started process (PID=37763) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:18:33.744-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:18:33.764-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:33.754-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:18:33.854-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:33.825-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:18:33.874-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:18:34.354-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.701 seconds
+[2023-12-31T12:26:27.050-0300] {processor.py:161} INFO - Started process (PID=37990) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:26:27.071-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:26:27.121-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:26:27.111-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:26:27.200-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:26:27.180-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:26:27.211-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:26:27.631-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.650 seconds
+[2023-12-31T12:27:35.101-0300] {processor.py:161} INFO - Started process (PID=38057) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:27:35.121-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:27:35.141-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:27:35.140-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:27:35.251-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:27:35.221-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:27:35.270-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:27:35.720-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.670 seconds
+[2023-12-31T12:28:51.941-0300] {processor.py:161} INFO - Started process (PID=38119) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:28:51.961-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:28:51.990-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:51.980-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:28:52.081-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:52.050-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:28:52.100-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:28:52.521-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.640 seconds
+[2023-12-31T12:30:04.780-0300] {processor.py:161} INFO - Started process (PID=38170) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:30:04.801-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:30:04.820-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:30:04.811-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:30:04.881-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:30:04.861-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:30:04.891-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:30:05.321-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.610 seconds
+[2023-12-31T12:31:20.291-0300] {processor.py:161} INFO - Started process (PID=38248) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:31:20.321-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:31:20.360-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:20.341-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:31:20.470-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:20.440-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:31:20.481-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:31:21.051-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.830 seconds
+[2023-12-31T12:32:43.311-0300] {processor.py:161} INFO - Started process (PID=38299) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:32:43.350-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:32:43.401-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:32:43.390-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:32:43.570-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:32:43.520-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:32:43.590-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:32:44.260-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 1.040 seconds
+[2023-12-31T12:34:14.200-0300] {processor.py:161} INFO - Started process (PID=38360) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:34:14.230-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:34:14.261-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:34:14.250-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:34:14.381-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:34:14.351-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:34:14.401-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:34:15.030-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.901 seconds
+[2023-12-31T12:35:53.480-0300] {processor.py:161} INFO - Started process (PID=38444) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:35:53.501-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:35:53.540-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:35:53.521-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:35:53.660-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:35:53.630-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:35:53.670-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:35:54.250-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 0.900 seconds
+[2023-12-31T12:38:04.280-0300] {processor.py:161} INFO - Started process (PID=38513) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:38:04.310-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:38:04.340-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:38:04.330-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:38:04.480-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:38:04.450-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:38:04.501-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:38:05.280-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 1.110 seconds
+[2023-12-31T12:49:39.018-0300] {processor.py:161} INFO - Started process (PID=38828) to work on /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:49:39.117-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/02_daily_schedule.py for tasks to queue
+[2023-12-31T12:49:39.307-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:49:39.208-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:49:39.818-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:49:39.728-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/02_daily_schedule.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/02_daily_schedule.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:49:39.858-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/02_daily_schedule.py
+[2023-12-31T12:49:41.558-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/02_daily_schedule.py took 2.790 seconds

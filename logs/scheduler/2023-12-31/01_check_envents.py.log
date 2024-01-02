@@ -1,0 +1,728 @@
+[2023-12-31T09:36:47.200-0300] {processor.py:161} INFO - Started process (PID=31992) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:36:47.206-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T09:36:47.208-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:36:47.208-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:36:47.218-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:36:47.217-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:36:47.218-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:36:47.288-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.097 seconds
+[2023-12-31T09:38:39.319-0300] {processor.py:161} INFO - Started process (PID=32180) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:38:39.328-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T09:38:39.337-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:39.330-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:38:39.360-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:39.357-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:38:39.368-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:38:39.599-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.300 seconds
+[2023-12-31T09:52:09.037-0300] {processor.py:161} INFO - Started process (PID=32777) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:52:09.048-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T09:52:09.059-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:52:09.058-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:52:09.106-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:52:09.098-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:52:09.108-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:52:09.339-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.331 seconds
+[2023-12-31T09:55:27.739-0300] {processor.py:161} INFO - Started process (PID=32939) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:55:27.747-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T09:55:27.756-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:27.749-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:55:27.777-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:27.769-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:55:27.778-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T09:55:27.959-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.239 seconds
+[2023-12-31T10:00:02.098-0300] {processor.py:161} INFO - Started process (PID=33150) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:00:02.106-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T10:00:02.108-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:00:02.107-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:00:02.120-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:00:02.118-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:00:02.127-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:00:02.237-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.150 seconds
+[2023-12-31T10:01:28.699-0300] {processor.py:161} INFO - Started process (PID=33287) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:01:28.708-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T10:01:28.718-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:28.717-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:01:28.738-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:28.737-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:01:28.739-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:01:28.866-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.180 seconds
+[2023-12-31T10:02:36.029-0300] {processor.py:161} INFO - Started process (PID=33345) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:02:36.038-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T10:02:36.039-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:36.039-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:02:36.059-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:36.050-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:02:36.066-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:02:36.199-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.180 seconds
+[2023-12-31T10:03:42.416-0300] {processor.py:161} INFO - Started process (PID=33417) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:03:42.418-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T10:03:42.426-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:42.420-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:03:42.438-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:42.436-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:03:42.438-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:03:42.529-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.131 seconds
+[2023-12-31T10:04:54.338-0300] {processor.py:161} INFO - Started process (PID=33503) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:04:54.346-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T10:04:54.348-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:54.347-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:04:54.359-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:54.358-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:04:54.366-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:04:54.476-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.149 seconds
+[2023-12-31T10:06:05.627-0300] {processor.py:161} INFO - Started process (PID=33583) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:06:05.629-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T10:06:05.637-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:06:05.637-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:06:05.649-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:06:05.647-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:06:05.656-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:06:05.749-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.141 seconds
+[2023-12-31T10:07:16.338-0300] {processor.py:161} INFO - Started process (PID=33698) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:07:16.347-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T10:07:16.349-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:07:16.348-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:07:16.367-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:07:16.359-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:07:16.368-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:07:16.468-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.141 seconds
+[2023-12-31T10:08:28.969-0300] {processor.py:161} INFO - Started process (PID=33778) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:08:28.977-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T10:08:28.979-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:28.978-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:08:28.998-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:28.996-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:08:28.999-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T10:08:29.098-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.180 seconds
+[2023-12-31T11:29:06.995-0300] {processor.py:161} INFO - Started process (PID=33977) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:29:07.005-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:29:07.014-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:29:07.006-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:29:07.036-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:29:07.026-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:29:07.044-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:29:07.335-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.359 seconds
+[2023-12-31T11:30:56.265-0300] {processor.py:161} INFO - Started process (PID=34241) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:30:56.275-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:30:56.284-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:56.276-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:30:56.306-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:56.305-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:30:56.315-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:30:56.485-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.240 seconds
+[2023-12-31T11:32:25.975-0300] {processor.py:161} INFO - Started process (PID=34346) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:32:25.984-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:32:25.986-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:25.986-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:32:26.005-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:26.004-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:32:26.006-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:32:26.117-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.153 seconds
+[2023-12-31T11:33:55.804-0300] {processor.py:161} INFO - Started process (PID=34448) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:33:55.806-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:33:55.815-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:55.814-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:33:55.835-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:55.826-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:33:55.836-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:33:55.945-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.160 seconds
+[2023-12-31T11:35:18.156-0300] {processor.py:161} INFO - Started process (PID=34566) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:35:18.165-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:35:18.175-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:18.174-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:35:18.195-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:18.186-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:35:18.196-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:35:18.325-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.189 seconds
+[2023-12-31T11:36:42.045-0300] {processor.py:161} INFO - Started process (PID=34655) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:36:42.054-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:36:42.055-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:42.055-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:36:42.075-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:42.066-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:36:42.076-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:36:42.197-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.171 seconds
+[2023-12-31T11:38:06.554-0300] {processor.py:161} INFO - Started process (PID=34750) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:38:06.564-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:38:06.566-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:38:06.565-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:38:06.585-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:38:06.584-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:38:06.586-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:38:06.726-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.191 seconds
+[2023-12-31T11:39:28.474-0300] {processor.py:161} INFO - Started process (PID=34839) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:39:28.476-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:39:28.485-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:28.484-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:39:28.504-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:28.496-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:39:28.505-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:39:28.646-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.190 seconds
+[2023-12-31T11:40:51.126-0300] {processor.py:161} INFO - Started process (PID=34953) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:40:51.134-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:40:51.136-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:51.135-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:40:51.155-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:51.154-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:40:51.156-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:40:51.305-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.191 seconds
+[2023-12-31T11:42:25.904-0300] {processor.py:161} INFO - Started process (PID=35065) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:42:25.915-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:42:25.925-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:25.924-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:42:25.945-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:25.936-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:42:25.946-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:42:26.135-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.261 seconds
+[2023-12-31T11:44:01.934-0300] {processor.py:161} INFO - Started process (PID=35175) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:44:01.936-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:44:01.946-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:44:01.945-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:44:01.966-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:44:01.965-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:44:01.974-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:44:02.166-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.260 seconds
+[2023-12-31T11:45:42.656-0300] {processor.py:161} INFO - Started process (PID=35308) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:45:42.665-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:45:42.674-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:42.674-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:45:42.695-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:42.686-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:45:42.696-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:45:42.845-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.209 seconds
+[2023-12-31T11:47:19.606-0300] {processor.py:161} INFO - Started process (PID=35441) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:47:19.616-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:47:19.625-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:47:19.625-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:47:19.654-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:47:19.645-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:47:19.655-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:47:19.844-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.251 seconds
+[2023-12-31T11:49:34.014-0300] {processor.py:161} INFO - Started process (PID=35597) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:49:34.025-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:49:34.044-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:34.035-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:49:34.066-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:34.056-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:49:34.075-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:49:34.276-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.292 seconds
+[2023-12-31T11:51:44.276-0300] {processor.py:161} INFO - Started process (PID=35745) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:51:44.294-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:51:44.305-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:44.304-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:51:44.335-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:44.325-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:51:44.335-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:51:44.526-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.280 seconds
+[2023-12-31T11:54:27.676-0300] {processor.py:161} INFO - Started process (PID=35875) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:54:27.695-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:54:27.714-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:27.705-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:54:27.764-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:27.746-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:54:27.765-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:54:28.106-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.500 seconds
+[2023-12-31T11:56:18.975-0300] {processor.py:161} INFO - Started process (PID=36013) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:56:18.986-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:56:18.995-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:56:18.995-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:56:19.025-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:56:19.016-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:56:19.035-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:56:19.225-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.270 seconds
+[2023-12-31T11:58:04.465-0300] {processor.py:161} INFO - Started process (PID=36115) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:58:04.475-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:58:04.486-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:58:04.485-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:58:04.525-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:58:04.515-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:58:04.525-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:58:04.705-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.260 seconds
+[2023-12-31T11:59:50.364-0300] {processor.py:161} INFO - Started process (PID=36220) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:59:50.374-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T11:59:50.384-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:50.375-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:59:50.414-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:50.404-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:59:50.414-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T11:59:50.595-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.259 seconds
+[2023-12-31T12:01:40.864-0300] {processor.py:161} INFO - Started process (PID=36352) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:01:40.875-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:01:40.885-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:40.885-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:01:40.924-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:40.914-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:01:40.925-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:01:41.135-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.311 seconds
+[2023-12-31T12:03:40.945-0300] {processor.py:161} INFO - Started process (PID=36465) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:03:40.964-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:03:40.975-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:40.965-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:03:41.014-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:41.004-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:03:41.015-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:03:41.314-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.399 seconds
+[2023-12-31T12:07:08.854-0300] {processor.py:161} INFO - Started process (PID=36731) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:07:08.884-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:07:08.904-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:07:08.894-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:07:08.954-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:07:08.935-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:07:08.955-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:07:09.364-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.590 seconds
+[2023-12-31T12:10:45.004-0300] {processor.py:161} INFO - Started process (PID=37122) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:10:45.024-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:10:45.035-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:10:45.034-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:10:45.084-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:10:45.065-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:10:45.085-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:10:47.335-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 2.380 seconds
+[2023-12-31T12:11:54.574-0300] {processor.py:161} INFO - Started process (PID=37216) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:11:54.594-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:11:54.604-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:54.595-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:11:54.645-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:54.635-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:11:54.654-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:11:54.904-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.370 seconds
+[2023-12-31T12:12:54.585-0300] {processor.py:161} INFO - Started process (PID=37298) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:12:54.604-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:12:54.624-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:54.614-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:12:54.684-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:54.665-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:12:54.694-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:12:55.014-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.479 seconds
+[2023-12-31T12:13:59.914-0300] {processor.py:161} INFO - Started process (PID=37382) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:13:59.924-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:13:59.935-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:59.934-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:13:59.994-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:59.975-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:14:00.004-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:14:00.364-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.500 seconds
+[2023-12-31T12:15:15.284-0300] {processor.py:161} INFO - Started process (PID=37508) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:15:15.304-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:15:15.314-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:15.314-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:15:15.364-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:15.354-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:15:15.374-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:15:15.735-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.490 seconds
+[2023-12-31T12:16:07.155-0300] {processor.py:161} INFO - Started process (PID=37575) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:16:07.184-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:16:07.214-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:07.204-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:16:07.295-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:07.284-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:16:07.305-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:16:07.724-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.630 seconds
+[2023-12-31T12:17:18.145-0300] {processor.py:161} INFO - Started process (PID=37669) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:17:18.164-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:17:18.185-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:18.184-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:17:18.244-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:18.224-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:17:18.254-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:17:18.564-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.469 seconds
+[2023-12-31T12:18:35.934-0300] {processor.py:161} INFO - Started process (PID=37764) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:18:35.945-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:18:35.974-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:35.964-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:18:36.044-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:36.024-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:18:36.054-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:18:36.465-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.571 seconds
+[2023-12-31T12:26:29.480-0300] {processor.py:161} INFO - Started process (PID=37991) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:26:29.501-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:26:29.521-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:26:29.511-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:26:29.641-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:26:29.591-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:26:29.661-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:26:30.101-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.680 seconds
+[2023-12-31T12:27:38.830-0300] {processor.py:161} INFO - Started process (PID=38064) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:27:38.851-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:27:38.880-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:27:38.870-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:27:38.971-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:27:38.951-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:27:38.991-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:27:39.461-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.710 seconds
+[2023-12-31T12:28:54.810-0300] {processor.py:161} INFO - Started process (PID=38122) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:28:54.831-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:28:54.851-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:54.841-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:28:54.930-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:54.901-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:28:54.940-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:28:55.371-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.610 seconds
+[2023-12-31T12:30:07.551-0300] {processor.py:161} INFO - Started process (PID=38171) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:30:07.580-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:30:07.610-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:30:07.600-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:30:07.690-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:30:07.661-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:30:07.701-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:30:08.111-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.620 seconds
+[2023-12-31T12:31:23.520-0300] {processor.py:161} INFO - Started process (PID=38252) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:31:23.541-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:31:23.561-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:23.551-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:31:23.650-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:23.620-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:31:23.660-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:31:24.081-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.630 seconds
+[2023-12-31T12:32:46.451-0300] {processor.py:161} INFO - Started process (PID=38303) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:32:46.471-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:32:46.500-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:32:46.490-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:32:46.601-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:32:46.571-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:32:46.611-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:32:47.140-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.750 seconds
+[2023-12-31T12:34:17.350-0300] {processor.py:161} INFO - Started process (PID=38361) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:34:17.371-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:34:17.401-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:34:17.391-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:34:17.500-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:34:17.470-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:34:17.511-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:34:18.050-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 0.769 seconds
+[2023-12-31T12:35:57.400-0300] {processor.py:161} INFO - Started process (PID=38445) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:35:57.440-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:35:57.480-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:35:57.460-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:35:57.631-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:35:57.590-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:35:57.650-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:35:58.341-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 1.020 seconds
+[2023-12-31T12:38:08.370-0300] {processor.py:161} INFO - Started process (PID=38516) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:38:08.411-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:38:08.500-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:38:08.460-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:38:08.681-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:38:08.640-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:38:08.711-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:38:09.910-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 1.670 seconds
+[2023-12-31T12:49:47.308-0300] {processor.py:161} INFO - Started process (PID=38832) to work on /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:49:47.378-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/01_check_envents.py for tasks to queue
+[2023-12-31T12:49:47.497-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:49:47.438-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:49:47.838-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:49:47.738-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/01_check_envents.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/01_check_envents.py", line 4, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:49:47.868-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/01_check_envents.py
+[2023-12-31T12:49:49.698-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/01_check_envents.py took 2.680 seconds

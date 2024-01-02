@@ -1,0 +1,1416 @@
+[2023-12-31T09:35:02.587-0300] {processor.py:161} INFO - Started process (PID=31778) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:35:02.589-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T09:35:02.590-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:35:02.589-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:35:02.609-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:35:02.607-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T09:35:02.610-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:35:02.669-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.091 seconds
+[2023-12-31T09:38:16.349-0300] {processor.py:161} INFO - Started process (PID=32157) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:38:16.357-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T09:38:16.360-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:16.358-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:38:16.398-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:16.389-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T09:38:16.400-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:38:16.666-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.322 seconds
+[2023-12-31T09:39:48.727-0300] {processor.py:161} INFO - Started process (PID=32250) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:39:48.729-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T09:39:48.730-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:39:48.730-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:39:48.758-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:39:48.750-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T09:39:48.759-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:39:48.847-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.137 seconds
+[2023-12-31T09:51:34.209-0300] {processor.py:161} INFO - Started process (PID=32747) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:51:34.228-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T09:51:34.240-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:51:34.238-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:51:34.416-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:51:34.377-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T09:51:34.437-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:51:34.887-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.729 seconds
+[2023-12-31T09:55:06.139-0300] {processor.py:161} INFO - Started process (PID=32913) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:55:06.147-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T09:55:06.149-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:06.148-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:55:06.197-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:06.189-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T09:55:06.198-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:55:06.300-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.173 seconds
+[2023-12-31T09:59:44.229-0300] {processor.py:161} INFO - Started process (PID=33130) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:59:44.237-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T09:59:44.238-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:59:44.238-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:59:44.278-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:59:44.270-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T09:59:44.279-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T09:59:44.387-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.168 seconds
+[2023-12-31T10:01:11.698-0300] {processor.py:161} INFO - Started process (PID=33231) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:01:11.707-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T10:01:11.708-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:11.708-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:01:11.749-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:11.740-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T10:01:11.749-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:01:11.858-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.178 seconds
+[2023-12-31T10:02:19.647-0300] {processor.py:161} INFO - Started process (PID=33331) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:02:19.649-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T10:02:19.667-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:19.660-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:02:19.708-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:19.698-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T10:02:19.709-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:02:19.887-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.251 seconds
+[2023-12-31T10:03:26.049-0300] {processor.py:161} INFO - Started process (PID=33395) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:03:26.058-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T10:03:26.066-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:26.059-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:03:26.119-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:26.108-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T10:03:26.127-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:03:26.247-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.211 seconds
+[2023-12-31T10:04:35.798-0300] {processor.py:161} INFO - Started process (PID=33477) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:04:35.807-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T10:04:35.809-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:35.808-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:04:35.859-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:35.850-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T10:04:35.860-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:04:35.967-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.189 seconds
+[2023-12-31T10:05:46.907-0300] {processor.py:161} INFO - Started process (PID=33563) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:05:46.910-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T10:05:46.918-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:05:46.917-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:05:46.967-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:05:46.957-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T10:05:46.968-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:05:47.079-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.182 seconds
+[2023-12-31T10:06:58.017-0300] {processor.py:161} INFO - Started process (PID=33672) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:06:58.019-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T10:06:58.027-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:06:58.026-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:06:58.070-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:06:58.067-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T10:06:58.078-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:06:58.207-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.209 seconds
+[2023-12-31T10:08:10.476-0300] {processor.py:161} INFO - Started process (PID=33756) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:08:10.478-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T10:08:10.487-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:10.486-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:08:10.528-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:10.519-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T10:08:10.528-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T10:08:10.637-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.178 seconds
+[2023-12-31T11:28:36.077-0300] {processor.py:161} INFO - Started process (PID=33941) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:28:36.094-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:28:36.097-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:28:36.096-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:28:36.187-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:28:36.166-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:28:36.196-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:28:36.375-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.319 seconds
+[2023-12-31T11:30:35.084-0300] {processor.py:161} INFO - Started process (PID=34209) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:30:35.086-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:30:35.096-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:35.094-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:30:35.156-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:35.146-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:30:35.157-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:30:35.285-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.220 seconds
+[2023-12-31T11:32:06.844-0300] {processor.py:161} INFO - Started process (PID=34326) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:32:06.846-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:32:06.855-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:06.854-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:32:06.904-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:06.895-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:32:06.905-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:32:07.017-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.191 seconds
+[2023-12-31T11:33:36.286-0300] {processor.py:161} INFO - Started process (PID=34420) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:33:36.296-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:33:36.306-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:36.305-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:33:36.376-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:36.364-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:33:36.384-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:33:36.595-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.321 seconds
+[2023-12-31T11:35:00.715-0300] {processor.py:161} INFO - Started process (PID=34517) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:35:00.724-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:35:00.734-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:00.726-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:35:00.786-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:00.776-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:35:00.787-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:35:00.905-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.210 seconds
+[2023-12-31T11:36:23.486-0300] {processor.py:161} INFO - Started process (PID=34633) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:36:23.494-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:36:23.496-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:23.495-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:36:23.546-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:23.535-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:36:23.554-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:36:23.664-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.189 seconds
+[2023-12-31T11:37:46.824-0300] {processor.py:161} INFO - Started process (PID=34722) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:37:46.826-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:37:46.834-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:37:46.834-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:37:46.885-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:37:46.875-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:37:46.886-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:37:46.996-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.190 seconds
+[2023-12-31T11:39:08.415-0300] {processor.py:161} INFO - Started process (PID=34817) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:39:08.424-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:39:08.426-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:08.426-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:39:08.486-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:08.476-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:39:08.494-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:39:08.685-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.299 seconds
+[2023-12-31T11:40:31.795-0300] {processor.py:161} INFO - Started process (PID=34933) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:40:31.805-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:40:31.814-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:31.806-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:40:31.886-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:31.876-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:40:31.895-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:40:32.036-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.260 seconds
+[2023-12-31T11:42:05.124-0300] {processor.py:161} INFO - Started process (PID=35039) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:42:05.126-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:42:05.136-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:05.135-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:42:05.194-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:05.184-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:42:05.195-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:42:05.325-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.220 seconds
+[2023-12-31T11:43:40.445-0300] {processor.py:161} INFO - Started process (PID=35149) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:43:40.454-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:43:40.456-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:43:40.455-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:43:40.546-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:43:40.534-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:43:40.555-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:43:40.724-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.298 seconds
+[2023-12-31T11:45:21.876-0300] {processor.py:161} INFO - Started process (PID=35288) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:45:21.886-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:45:21.895-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:21.894-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:45:21.955-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:21.945-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:45:21.964-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:45:22.106-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.250 seconds
+[2023-12-31T11:46:58.705-0300] {processor.py:161} INFO - Started process (PID=35401) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:46:58.715-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:46:58.725-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:46:58.724-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:46:58.805-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:46:58.795-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:46:58.806-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:46:58.975-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.289 seconds
+[2023-12-31T11:49:08.334-0300] {processor.py:161} INFO - Started process (PID=35571) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:49:08.354-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:49:08.364-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:08.355-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:49:08.506-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:08.495-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:49:08.515-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:49:08.855-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.589 seconds
+[2023-12-31T11:51:16.485-0300] {processor.py:161} INFO - Started process (PID=35716) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:51:16.494-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:51:16.504-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:16.496-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:51:16.605-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:16.584-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:51:16.614-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:51:16.835-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.379 seconds
+[2023-12-31T11:54:01.854-0300] {processor.py:161} INFO - Started process (PID=35843) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:54:01.865-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:54:01.885-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:01.875-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:54:02.005-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:01.985-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:54:02.014-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:54:02.256-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.421 seconds
+[2023-12-31T11:55:57.845-0300] {processor.py:161} INFO - Started process (PID=35990) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:55:57.854-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:55:57.865-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:55:57.864-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:55:57.965-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:55:57.954-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:55:57.975-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:55:58.154-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.329 seconds
+[2023-12-31T11:57:42.765-0300] {processor.py:161} INFO - Started process (PID=36093) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:57:42.776-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:57:42.794-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:57:42.794-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:57:42.905-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:57:42.885-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:57:42.914-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:57:43.125-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.391 seconds
+[2023-12-31T11:59:28.774-0300] {processor.py:161} INFO - Started process (PID=36197) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:59:28.785-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T11:59:28.795-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:28.794-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:59:28.905-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:28.885-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T11:59:28.914-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T11:59:29.135-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.401 seconds
+[2023-12-31T12:01:17.035-0300] {processor.py:161} INFO - Started process (PID=36324) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:01:17.045-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:01:17.055-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:17.055-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:01:17.174-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:17.155-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:01:17.175-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:01:17.415-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.400 seconds
+[2023-12-31T12:03:15.194-0300] {processor.py:161} INFO - Started process (PID=36437) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:03:15.215-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:03:15.225-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:15.224-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:03:15.345-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:15.335-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:03:15.354-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:03:15.585-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.421 seconds
+[2023-12-31T12:06:28.395-0300] {processor.py:161} INFO - Started process (PID=36677) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:06:28.425-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:06:28.455-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:06:28.444-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:06:28.704-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:06:28.665-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:06:28.715-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:06:29.184-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.850 seconds
+[2023-12-31T12:09:52.055-0300] {processor.py:161} INFO - Started process (PID=37056) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:09:52.074-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:09:52.094-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:09:52.084-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:09:52.235-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:09:52.215-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:09:52.244-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:09:54.234-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 2.210 seconds
+[2023-12-31T12:11:16.904-0300] {processor.py:161} INFO - Started process (PID=37164) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:11:16.945-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:11:17.035-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:16.995-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:11:17.265-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:17.225-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:11:17.284-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:11:17.705-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.860 seconds
+[2023-12-31T12:12:06.634-0300] {processor.py:161} INFO - Started process (PID=37232) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:12:06.644-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:12:06.655-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:06.654-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:12:06.814-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:06.785-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:12:06.815-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:12:07.134-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.540 seconds
+[2023-12-31T12:12:47.174-0300] {processor.py:161} INFO - Started process (PID=37283) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:12:47.194-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:12:47.204-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:47.195-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:12:47.364-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:47.325-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:12:47.365-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:12:47.674-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.521 seconds
+[2023-12-31T12:13:28.414-0300] {processor.py:161} INFO - Started process (PID=37340) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:13:28.434-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:13:28.455-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:28.445-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:13:28.744-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:28.674-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:13:28.764-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:13:29.314-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.970 seconds
+[2023-12-31T12:14:14.474-0300] {processor.py:161} INFO - Started process (PID=37399) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:14:14.495-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:14:14.525-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:14:14.514-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:14:14.774-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:14:14.724-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:14:14.785-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:14:15.184-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.779 seconds
+[2023-12-31T12:15:04.505-0300] {processor.py:161} INFO - Started process (PID=37491) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:15:04.524-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:15:04.544-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:04.534-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:15:04.705-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:04.675-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:15:04.714-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:15:05.095-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.620 seconds
+[2023-12-31T12:15:53.884-0300] {processor.py:161} INFO - Started process (PID=37555) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:15:53.904-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:15:53.915-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:53.914-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:15:54.065-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:54.035-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:15:54.074-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:15:54.424-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.579 seconds
+[2023-12-31T12:16:40.294-0300] {processor.py:161} INFO - Started process (PID=37615) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:16:40.314-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:16:40.335-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:40.334-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:16:40.604-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:40.564-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:16:40.614-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:16:40.974-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.740 seconds
+[2023-12-31T12:17:29.124-0300] {processor.py:161} INFO - Started process (PID=37681) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:17:29.134-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:17:29.145-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:29.144-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:17:29.304-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:29.274-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:17:29.314-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:17:29.674-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.590 seconds
+[2023-12-31T12:18:22.125-0300] {processor.py:161} INFO - Started process (PID=37747) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:18:22.144-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:18:22.164-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:22.155-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:18:22.325-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:22.294-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:18:22.334-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:18:22.674-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.590 seconds
+[2023-12-31T12:25:41.860-0300] {processor.py:161} INFO - Started process (PID=37954) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:25:41.891-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:25:41.921-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:25:41.911-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:25:42.151-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:25:42.120-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:25:42.170-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:25:42.661-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.880 seconds
+[2023-12-31T12:26:51.021-0300] {processor.py:161} INFO - Started process (PID=38005) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:26:51.041-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:26:51.061-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:26:51.051-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:26:51.280-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:26:51.231-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:26:51.290-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:26:51.700-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.721 seconds
+[2023-12-31T12:28:04.890-0300] {processor.py:161} INFO - Started process (PID=38085) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:28:04.921-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:28:04.951-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:04.941-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:28:05.321-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:05.251-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:28:05.340-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:28:06.571-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 1.810 seconds
+[2023-12-31T12:29:12.250-0300] {processor.py:161} INFO - Started process (PID=38132) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:29:12.271-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:29:12.291-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:29:12.290-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:29:12.520-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:29:12.471-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:29:12.530-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:29:12.911-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.740 seconds
+[2023-12-31T12:30:27.991-0300] {processor.py:161} INFO - Started process (PID=38209) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:30:28.011-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:30:28.031-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:30:28.030-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:30:28.331-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:30:28.280-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:30:28.341-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:30:28.891-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.970 seconds
+[2023-12-31T12:31:45.410-0300] {processor.py:161} INFO - Started process (PID=38263) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:31:45.431-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:31:45.451-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:45.450-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:31:45.680-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:45.630-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:31:45.690-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:31:46.131-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.790 seconds
+[2023-12-31T12:33:10.401-0300] {processor.py:161} INFO - Started process (PID=38317) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:33:10.431-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:33:10.471-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:33:10.460-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:33:10.721-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:33:10.671-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:33:10.740-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:33:11.221-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.890 seconds
+[2023-12-31T12:34:36.921-0300] {processor.py:161} INFO - Started process (PID=38371) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:34:36.950-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:34:36.981-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:34:36.961-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:34:37.390-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:34:37.330-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:34:37.401-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:34:37.980-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 1.170 seconds
+[2023-12-31T12:36:25.140-0300] {processor.py:161} INFO - Started process (PID=38462) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:36:25.170-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:36:25.191-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:36:25.181-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:36:25.600-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:36:25.530-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:36:25.620-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:36:26.230-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 1.190 seconds
+[2023-12-31T12:37:31.490-0300] {processor.py:161} INFO - Started process (PID=38497) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:37:31.530-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:37:31.590-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:37:31.560-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:37:32.090-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:37:32.000-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:37:32.120-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:37:33.010-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 1.660 seconds
+[2023-12-31T12:45:54.638-0300] {processor.py:161} INFO - Started process (PID=38696) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:45:54.697-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:45:54.768-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:45:54.747-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:45:55.458-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:45:55.318-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:45:55.487-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:45:56.698-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 2.260 seconds
+[2023-12-31T12:48:12.918-0300] {processor.py:161} INFO - Started process (PID=38793) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:48:13.017-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:48:13.108-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:48:13.068-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:48:14.058-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:48:13.878-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:48:14.108-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:48:15.828-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 3.170 seconds
+[2023-12-31T12:52:02.208-0300] {processor.py:161} INFO - Started process (PID=38877) to work on /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:52:02.377-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
+[2023-12-31T12:52:02.528-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:52:02.477-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:52:04.417-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:52:04.027-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/15_stocksense.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/15_stocksense.py", line 56, in <module>
+    get_data = PythonOperator(
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 816, in __init__
+    task_group.add(self)
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_data' has already been added to the DAG
+[2023-12-31T12:52:04.498-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/15_stocksense.py
+[2023-12-31T12:52:08.388-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 6.990 seconds

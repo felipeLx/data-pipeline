@@ -1,0 +1,770 @@
+[2023-12-31T09:36:34.800-0300] {processor.py:161} INFO - Started process (PID=31946) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:36:34.806-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T09:36:34.807-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:36:34.807-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:36:34.817-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:36:34.811-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:36:34.818-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:36:34.876-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.080 seconds
+[2023-12-31T09:38:24.029-0300] {processor.py:161} INFO - Started process (PID=32161) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:38:24.038-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T09:38:24.049-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:24.047-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:38:24.070-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:38:24.068-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:38:24.077-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:38:24.299-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.299 seconds
+[2023-12-31T09:51:53.706-0300] {processor.py:161} INFO - Started process (PID=32761) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:51:53.709-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T09:51:53.719-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:51:53.717-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:51:53.739-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:51:53.737-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:51:53.740-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:51:53.850-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.163 seconds
+[2023-12-31T09:55:12.968-0300] {processor.py:161} INFO - Started process (PID=32923) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:55:12.976-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T09:55:12.980-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:12.978-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:55:12.999-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:55:12.997-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:55:13.006-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:55:13.127-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.169 seconds
+[2023-12-31T09:59:50.058-0300] {processor.py:161} INFO - Started process (PID=33134) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:59:50.067-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T09:59:50.069-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:59:50.068-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:59:50.089-0300] {logging_mixin.py:188} INFO - [2023-12-31T09:59:50.079-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T09:59:50.096-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T09:59:50.207-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.159 seconds
+[2023-12-31T10:01:16.849-0300] {processor.py:161} INFO - Started process (PID=33268) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:01:16.868-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T10:01:16.870-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:16.869-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:01:16.888-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:01:16.880-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:01:16.888-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:01:16.978-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.159 seconds
+[2023-12-31T10:02:25.159-0300] {processor.py:161} INFO - Started process (PID=33335) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:02:25.168-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T10:02:25.170-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:25.169-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:02:25.188-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:02:25.187-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:02:25.189-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:02:25.288-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.140 seconds
+[2023-12-31T10:03:31.048-0300] {processor.py:161} INFO - Started process (PID=33401) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:03:31.057-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T10:03:31.058-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:31.058-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:03:31.076-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:03:31.068-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:03:31.077-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:03:31.167-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.129 seconds
+[2023-12-31T10:04:41.058-0300] {processor.py:161} INFO - Started process (PID=33487) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:04:41.066-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T10:04:41.069-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:41.068-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:04:41.089-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:04:41.088-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:04:41.097-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:04:41.199-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.152 seconds
+[2023-12-31T10:05:52.129-0300] {processor.py:161} INFO - Started process (PID=33567) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:05:52.137-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T10:05:52.139-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:05:52.138-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:05:52.158-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:05:52.149-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:05:52.159-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:05:52.318-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.201 seconds
+[2023-12-31T10:07:03.188-0300] {processor.py:161} INFO - Started process (PID=33682) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:07:03.197-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T10:07:03.198-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:07:03.198-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:07:03.216-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:07:03.208-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:07:03.217-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:07:03.329-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.152 seconds
+[2023-12-31T10:08:15.898-0300] {processor.py:161} INFO - Started process (PID=33760) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:08:15.907-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T10:08:15.908-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:15.908-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:08:15.927-0300] {logging_mixin.py:188} INFO - [2023-12-31T10:08:15.919-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T10:08:15.928-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T10:08:16.027-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.140 seconds
+[2023-12-31T11:28:43.866-0300] {processor.py:161} INFO - Started process (PID=33945) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:28:43.884-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:28:43.897-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:28:43.887-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:28:43.996-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:28:43.964-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:28:44.014-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:28:44.455-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.620 seconds
+[2023-12-31T11:30:41.797-0300] {processor.py:161} INFO - Started process (PID=34219) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:30:41.814-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:30:41.816-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:41.815-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:30:41.835-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:30:41.834-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:30:41.836-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:30:41.984-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.199 seconds
+[2023-12-31T11:32:12.214-0300] {processor.py:161} INFO - Started process (PID=34330) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:32:12.216-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:32:12.225-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:12.224-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:32:12.244-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:32:12.236-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:32:12.245-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:32:12.394-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.199 seconds
+[2023-12-31T11:33:42.785-0300] {processor.py:161} INFO - Started process (PID=34430) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:33:42.794-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:33:42.796-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:42.795-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:33:42.815-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:33:42.806-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:33:42.816-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:33:42.954-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.191 seconds
+[2023-12-31T11:35:05.604-0300] {processor.py:161} INFO - Started process (PID=34548) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:35:05.606-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:35:05.615-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:05.614-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:35:05.634-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:35:05.626-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:35:05.635-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:35:05.745-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.159 seconds
+[2023-12-31T11:36:28.915-0300] {processor.py:161} INFO - Started process (PID=34637) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:36:28.924-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:36:28.926-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:28.925-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:36:28.945-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:36:28.937-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:36:28.946-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:36:29.097-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.192 seconds
+[2023-12-31T11:37:52.395-0300] {processor.py:161} INFO - Started process (PID=34732) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:37:52.404-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:37:52.406-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:37:52.405-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:37:52.425-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:37:52.424-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:37:52.426-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:37:52.545-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.169 seconds
+[2023-12-31T11:39:14.735-0300] {processor.py:161} INFO - Started process (PID=34821) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:39:14.744-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:39:14.745-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:14.745-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:39:14.766-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:39:14.765-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:39:14.774-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:39:14.915-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.199 seconds
+[2023-12-31T11:40:37.514-0300] {processor.py:161} INFO - Started process (PID=34937) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:40:37.524-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:40:37.526-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:37.525-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:40:37.546-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:40:37.544-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:40:37.554-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:40:37.694-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.208 seconds
+[2023-12-31T11:42:11.166-0300] {processor.py:161} INFO - Started process (PID=35043) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:42:11.176-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:42:11.185-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:11.184-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:42:11.215-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:42:11.206-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:42:11.224-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:42:11.386-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.240 seconds
+[2023-12-31T11:43:47.374-0300] {processor.py:161} INFO - Started process (PID=35159) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:43:47.376-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:43:47.386-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:43:47.385-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:43:47.424-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:43:47.406-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:43:47.425-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:43:47.606-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.261 seconds
+[2023-12-31T11:45:28.805-0300] {processor.py:161} INFO - Started process (PID=35292) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:45:28.814-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:45:28.816-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:28.815-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:45:28.844-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:45:28.835-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:45:28.845-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:45:28.996-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.211 seconds
+[2023-12-31T11:47:05.735-0300] {processor.py:161} INFO - Started process (PID=35414) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:47:05.744-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:47:05.754-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:47:05.746-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:47:05.795-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:47:05.786-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:47:05.805-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:47:05.994-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.279 seconds
+[2023-12-31T11:49:16.645-0300] {processor.py:161} INFO - Started process (PID=35581) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:49:16.655-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:49:16.674-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:16.665-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:49:16.725-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:49:16.714-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:49:16.726-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:49:16.935-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.320 seconds
+[2023-12-31T11:51:27.604-0300] {processor.py:161} INFO - Started process (PID=35729) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:51:27.614-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:51:27.625-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:27.624-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:51:27.664-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:51:27.654-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:51:27.665-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:51:27.956-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.380 seconds
+[2023-12-31T11:54:10.195-0300] {processor.py:161} INFO - Started process (PID=35857) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:54:10.215-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:54:10.234-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:10.225-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:54:10.276-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:54:10.265-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:54:10.285-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:54:10.555-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.401 seconds
+[2023-12-31T11:56:05.015-0300] {processor.py:161} INFO - Started process (PID=35994) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:56:05.034-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:56:05.036-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:56:05.035-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:56:05.064-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:56:05.055-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:56:05.065-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:56:05.235-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.242 seconds
+[2023-12-31T11:57:49.925-0300] {processor.py:161} INFO - Started process (PID=36097) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:57:49.935-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:57:49.945-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:57:49.944-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:57:49.974-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:57:49.965-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:57:49.974-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:57:50.154-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.241 seconds
+[2023-12-31T11:59:35.435-0300] {processor.py:161} INFO - Started process (PID=36204) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:59:35.444-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T11:59:35.454-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:35.445-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:59:35.475-0300] {logging_mixin.py:188} INFO - [2023-12-31T11:59:35.474-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T11:59:35.484-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T11:59:35.664-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.259 seconds
+[2023-12-31T12:01:22.874-0300] {processor.py:161} INFO - Started process (PID=36334) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:01:22.884-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:01:22.894-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:22.885-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:01:22.934-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:01:22.924-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:01:22.935-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:01:23.125-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.280 seconds
+[2023-12-31T12:03:22.755-0300] {processor.py:161} INFO - Started process (PID=36447) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:03:22.765-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:03:22.775-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:22.774-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:03:22.814-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:03:22.804-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:03:22.815-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:03:23.024-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.291 seconds
+[2023-12-31T12:06:41.214-0300] {processor.py:161} INFO - Started process (PID=36693) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:06:41.244-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:06:41.255-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:06:41.254-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:06:41.314-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:06:41.294-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:06:41.315-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:06:41.915-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.741 seconds
+[2023-12-31T12:10:06.554-0300] {processor.py:161} INFO - Started process (PID=37078) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:10:06.634-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:10:06.665-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:10:06.664-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:10:06.775-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:10:06.755-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:10:06.795-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:10:07.534-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 1.051 seconds
+[2023-12-31T12:11:26.504-0300] {processor.py:161} INFO - Started process (PID=37177) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:11:26.524-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:11:26.554-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:26.535-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:11:26.594-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:11:26.584-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:11:26.595-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:11:26.894-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.441 seconds
+[2023-12-31T12:12:16.714-0300] {processor.py:161} INFO - Started process (PID=37242) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:12:16.725-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:12:16.744-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:16.735-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:12:16.784-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:12:16.774-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:12:16.785-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:12:17.055-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.381 seconds
+[2023-12-31T12:13:13.495-0300] {processor.py:161} INFO - Started process (PID=37320) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:13:13.514-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:13:13.534-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:13.524-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:13:13.574-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:13:13.564-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:13:13.575-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:13:13.854-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.390 seconds
+[2023-12-31T12:14:17.175-0300] {processor.py:161} INFO - Started process (PID=37402) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:14:17.204-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:14:17.215-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:14:17.214-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:14:17.334-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:14:17.314-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:14:17.344-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:14:17.635-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.540 seconds
+[2023-12-31T12:15:06.735-0300] {processor.py:161} INFO - Started process (PID=37492) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:15:06.754-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:15:06.774-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:06.764-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:15:06.824-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:06.805-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:15:06.834-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:15:07.194-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.520 seconds
+[2023-12-31T12:15:55.814-0300] {processor.py:161} INFO - Started process (PID=37556) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:15:55.845-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:15:55.864-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:55.854-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:15:55.914-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:15:55.895-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:15:55.924-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:15:56.324-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.541 seconds
+[2023-12-31T12:16:42.995-0300] {processor.py:161} INFO - Started process (PID=37617) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:16:43.015-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:16:43.044-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:43.034-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:16:43.114-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:16:43.094-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:16:43.124-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:16:43.494-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.530 seconds
+[2023-12-31T12:17:31.934-0300] {processor.py:161} INFO - Started process (PID=37685) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:17:31.955-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:17:31.984-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:31.974-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:17:32.044-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:17:32.024-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:17:32.054-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:17:32.464-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.581 seconds
+[2023-12-31T12:18:24.654-0300] {processor.py:161} INFO - Started process (PID=37751) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:18:24.674-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:18:24.685-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:24.684-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:18:24.744-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:18:24.724-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:18:24.745-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:18:25.105-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.521 seconds
+[2023-12-31T12:26:01.701-0300] {processor.py:161} INFO - Started process (PID=37969) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:26:01.730-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:26:01.751-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:26:01.750-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:26:01.830-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:26:01.810-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:26:01.841-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:26:02.290-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.699 seconds
+[2023-12-31T12:27:10.631-0300] {processor.py:161} INFO - Started process (PID=38031) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:27:10.660-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:27:10.691-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:27:10.681-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:27:10.830-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:27:10.791-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:27:10.841-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:27:11.431-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.870 seconds
+[2023-12-31T12:28:29.981-0300] {processor.py:161} INFO - Started process (PID=38101) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:28:30.001-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:28:30.040-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:30.021-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:28:30.121-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:28:30.091-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:28:30.140-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:28:30.610-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.680 seconds
+[2023-12-31T12:29:38.780-0300] {processor.py:161} INFO - Started process (PID=38150) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:29:38.801-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:29:38.831-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:29:38.821-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:29:38.931-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:29:38.910-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:29:38.951-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:29:39.610-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.940 seconds
+[2023-12-31T12:30:40.941-0300] {processor.py:161} INFO - Started process (PID=38219) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:30:40.971-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:30:41.001-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:30:40.990-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:30:41.091-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:30:41.071-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:30:41.110-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:30:41.631-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.770 seconds
+[2023-12-31T12:31:58.131-0300] {processor.py:161} INFO - Started process (PID=38273) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:31:58.151-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:31:58.181-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:58.170-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:31:58.280-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:31:58.251-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:31:58.290-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:31:58.740-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.651 seconds
+[2023-12-31T12:33:24.981-0300] {processor.py:161} INFO - Started process (PID=38327) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:33:25.011-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:33:25.050-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:33:25.031-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:33:25.150-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:33:25.130-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:33:25.161-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:33:25.650-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.759 seconds
+[2023-12-31T12:34:53.450-0300] {processor.py:161} INFO - Started process (PID=38383) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:34:53.481-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:34:53.511-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:34:53.501-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:34:53.600-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:34:53.570-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:34:53.611-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:34:54.291-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.970 seconds
+[2023-12-31T12:36:41.160-0300] {processor.py:161} INFO - Started process (PID=38472) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:36:41.200-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:36:41.230-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:36:41.220-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:36:41.341-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:36:41.301-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:36:41.361-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:36:42.020-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 0.940 seconds
+[2023-12-31T12:46:40.418-0300] {processor.py:161} INFO - Started process (PID=38717) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:46:40.517-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:46:40.658-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:46:40.587-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:46:41.028-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:46:40.947-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:46:41.088-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:46:42.648-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 2.470 seconds
+[2023-12-31T12:48:48.418-0300] {processor.py:161} INFO - Started process (PID=38805) to work on /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:48:48.517-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/11_atomic_send.py for tasks to queue
+[2023-12-31T12:48:48.608-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:48:48.577-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:48:48.918-0300] {logging_mixin.py:188} INFO - [2023-12-31T12:48:48.828-0300] {dagbag.py:348} ERROR - Failed to import: /home/felipe/airflow/dags/11_atomic_send.py
+Traceback (most recent call last):
+  File "/home/felipe/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/felipe/airflow/dags/11_atomic_send.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[2023-12-31T12:48:48.968-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/felipe/airflow/dags/11_atomic_send.py
+[2023-12-31T12:48:50.718-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/11_atomic_send.py took 2.530 seconds

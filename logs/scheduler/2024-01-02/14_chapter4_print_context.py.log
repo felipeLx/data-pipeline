@@ -1,0 +1,7 @@
+[2024-01-01T21:02:12.668-0300] {processor.py:161} INFO - Started process (PID=68085) to work on /home/felipe/airflow/dags/14_chapter4_print_context.py
+[2024-01-01T21:02:12.669-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/14_chapter4_print_context.py for tasks to queue
+[2024-01-01T21:02:12.671-0300] {logging_mixin.py:188} INFO - [2024-01-01T21:02:12.670-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/14_chapter4_print_context.py
+[2024-01-01T21:02:12.693-0300] {processor.py:840} INFO - DAG(s) 'chapter4_print_context' retrieved from /home/felipe/airflow/dags/14_chapter4_print_context.py
+[2024-01-01T21:02:12.921-0300] {logging_mixin.py:188} INFO - [2024-01-01T21:02:12.921-0300] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-01T21:02:12.961-0300] {logging_mixin.py:188} INFO - [2024-01-01T21:02:12.961-0300] {dag.py:3820} INFO - Setting next_dagrun for chapter4_print_context to 2023-12-30T00:00:00+00:00, run_after=2023-12-31T00:00:00+00:00
+[2024-01-01T21:02:13.015-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/14_chapter4_print_context.py took 0.352 seconds
