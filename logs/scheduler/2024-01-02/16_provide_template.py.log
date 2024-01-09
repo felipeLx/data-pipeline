@@ -1,7 +1,0 @@
-[2024-01-01T21:02:08.077-0300] {processor.py:161} INFO - Started process (PID=68053) to work on /home/felipe/airflow/dags/16_provide_template.py
-[2024-01-01T21:02:08.079-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/16_provide_template.py for tasks to queue
-[2024-01-01T21:02:08.082-0300] {logging_mixin.py:188} INFO - [2024-01-01T21:02:08.081-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/16_provide_template.py
-[2024-01-01T21:02:08.114-0300] {processor.py:840} INFO - DAG(s) 'provide_template' retrieved from /home/felipe/airflow/dags/16_provide_template.py
-[2024-01-01T21:02:08.381-0300] {logging_mixin.py:188} INFO - [2024-01-01T21:02:08.380-0300] {dag.py:3033} INFO - Sync 1 DAGs
-[2024-01-01T21:02:08.422-0300] {logging_mixin.py:188} INFO - [2024-01-01T21:02:08.422-0300] {dag.py:3820} INFO - Setting next_dagrun for provide_template to 2024-01-01T00:00:00+00:00, run_after=2024-01-01T01:00:00+00:00
-[2024-01-01T21:02:08.476-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/16_provide_template.py took 0.404 seconds

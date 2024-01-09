@@ -1,7 +1,0 @@
-[2024-01-01T21:02:04.680-0300] {processor.py:161} INFO - Started process (PID=68031) to work on /home/felipe/airflow/dags/15_stocksense.py
-[2024-01-01T21:02:04.681-0300] {processor.py:830} INFO - Processing file /home/felipe/airflow/dags/15_stocksense.py for tasks to queue
-[2024-01-01T21:02:04.683-0300] {logging_mixin.py:188} INFO - [2024-01-01T21:02:04.683-0300] {dagbag.py:538} INFO - Filling up the DagBag from /home/felipe/airflow/dags/15_stocksense.py
-[2024-01-01T21:02:04.705-0300] {processor.py:840} INFO - DAG(s) 'stocksense' retrieved from /home/felipe/airflow/dags/15_stocksense.py
-[2024-01-01T21:02:04.923-0300] {logging_mixin.py:188} INFO - [2024-01-01T21:02:04.923-0300] {dag.py:3033} INFO - Sync 1 DAGs
-[2024-01-01T21:02:04.967-0300] {logging_mixin.py:188} INFO - [2024-01-01T21:02:04.966-0300] {dag.py:3820} INFO - Setting next_dagrun for stocksense to 2024-01-02T00:00:00+00:00, run_after=2024-01-02T01:00:00+00:00
-[2024-01-01T21:02:05.019-0300] {processor.py:183} INFO - Processing /home/felipe/airflow/dags/15_stocksense.py took 0.344 seconds

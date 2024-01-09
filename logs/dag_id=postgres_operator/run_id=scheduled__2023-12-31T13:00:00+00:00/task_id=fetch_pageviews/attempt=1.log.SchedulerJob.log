@@ -1,1 +1,0 @@
-[2024-01-01T08:45:46.168-0300] {scheduler_job_runner.py:781} ERROR - Executor reports task instance <TaskInstance: postgres_operator.fetch_pageviews scheduled__2023-12-31T13:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
